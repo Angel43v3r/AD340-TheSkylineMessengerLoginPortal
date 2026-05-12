@@ -72,13 +72,26 @@ Build configuration language: Kotlin DSL (build.gradle.kts).
 - Wait for Gradle to finish "syncing" (this may take a few minutes on the first run).
 
 ### Assignment Instruction
-Navigate to the activity_main.xml file
+Select `Project` -> `Android`
+*Note: Click the Project icon on top left of the screen, Select dropdown and pick Android. Projects shows project folder, Android shows the res folder.*
+
+Navigate to the layout file, `activity_main.xml`
 ```
 app/
  └── res/
       └── layout/
            └── activity_main.xml
 ```
+
+To edit text values (strings) used by the app, navigate to `strings.xml`:
+```
+app/
+ └── res/
+      └── values/
+           └── themes/
+                └── strings.xml
+```
+
 #### Phase 1: The Blueprint (Layout Structure)
 Your goal is to create a UI that looks consistent. Use **ConstraintLayout** as your parent container to position the main elements.
 

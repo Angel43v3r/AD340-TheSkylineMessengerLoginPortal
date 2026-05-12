@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TheSkylineMessenger</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="title">Skyline Messenger</string>
+    <string name="logo_description">Skyline Messenger Logo</string>
+    <string name="email">Email</string>
+    <string name="emailInput">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="passwordInput">Enter your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="register"> Register Now</string>
 </resources>
