@@ -50,6 +50,7 @@ cd <Folder_Name>
 
 #### 4. Now, let’s initialize a modern Android project template.
 
+```
 **STEP 1:** Open Android Studio and select `File` -> `New` -> `New Project`.
 
 **STEP 2:** Choose `Empty Views Activity` (This is crucial!).
@@ -63,6 +64,7 @@ cd <Folder_Name>
 **Minimum SDK:** API 24 (Android 7.0) or higher.
 
 **Build configuration language:** Kotlin DSL (build.gradle.kts).
+```
 
 **STEP 4:** Click Finish
 
