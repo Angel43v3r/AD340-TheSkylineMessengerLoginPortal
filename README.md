@@ -50,20 +50,21 @@ cd <Folder_Name>
 
 #### 4. Now, let’s initialize a modern Android project template.
 
-```
+
 **STEP 1:** Open Android Studio and select `File` -> `New` -> `New Project`.
 
 **STEP 2:** Choose `Empty Views Activity` (This is crucial!).
 
 **STEP 3:** Configure the project:
 
-**Name:** TheSkylineMessenger
+```text
+Name: TheSkylineMessenger
 
-**Package name:** com.example.theskylinemessenger
+Package name: com.example.theskylinemessenger
 
-**Minimum SDK:** API 24 (Android 7.0) or higher.
+Minimum SDK: API 24 (Android 7.0) or higher.
 
-**Build configuration language:** Kotlin DSL (build.gradle.kts).
+Build configuration language: Kotlin DSL (build.gradle.kts).
 ```
 
 **STEP 4:** Click Finish
