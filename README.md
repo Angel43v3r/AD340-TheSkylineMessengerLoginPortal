@@ -30,31 +30,31 @@ Make sure you have the following installed:
     - You can download from the [Android Studio official website](https://developer.android.com/studio).
 
 ### Installation & Environment Setup
-1. Clone the Repository
+#### 1. Clone the Repository
    In the folder you want to save your project in, run:
 
 ```bash
 git clone git@github.com:Angel43v3r/AD340-Assignment-TheSkylineMessengerLoginPortal.git
 ```
 
-2. Navigate to the app folder:
+#### 2. Navigate to the app folder:
 
 ```
 cd AD340-Assignment-TheSkylineMessengerLoginPortal
 ```
 
-3. Navigate to the folder
+#### 3. Navigate to the folder
 ```
 cd <Folder_Name>
 ```
 
-4. Now, let’s initialize a modern Android project template.
+#### 4. Now, let’s initialize a modern Android project template.
 
-### STEP 1: Open Android Studio and select `File` -> `New` -> `New Project`.
+**STEP 1:** Open Android Studio and select `File` -> `New` -> `New Project`.
 
-### STEP 2: Choose `Empty Views Activity` (This is crucial!).
+**STEP 2:** Choose `Empty Views Activity` (This is crucial!).
 
-### STEP 3: Configure the project:
+**STEP 3:** Configure the project:
 
 **Name:** TheSkylineMessenger
 
@@ -64,7 +64,7 @@ cd <Folder_Name>
 
 **Build configuration language:** Kotlin DSL (build.gradle.kts).
 
-### STEP 4: Click Finish
+**STEP 4:** Click Finish
 
 - Wait for Gradle to finish "syncing" (this may take a few minutes on the first run).
 
@@ -94,10 +94,10 @@ A login screen needs to feel "tappable" and clean. Apply the following attribute
 
 |**Element**|**Requirement**|
 |----------------|--------------------------------------------------------------------------------------------------------|
-|Padding/Margins | Use standard spacing (e.g., `16dp` or `24dp`) to avoid elements touching the screen edges.             |
-|Button Style	   | Apply a corner radius of `8dp` and a custom background color (e.g., `#6200EE`).                        |
-|Typography	     | Use a `TextView` above the inputs that says "Welcome Back" with a text size of `28sp` and bold weight. |
-|Images	         | Ensure the `ImageView` has a `contentDescription` for accessibility.                                   |
+|**Padding/Margins** | Use standard spacing (e.g., `16dp` or `24dp`) to avoid elements touching the screen edges.             |
+|**Button Style**	   | Apply a corner radius of `8dp` and a custom background color (e.g., `#6200EE`).                        |
+|**Typography**	     | Use a `TextView` above the inputs that says "Welcome Back" with a text size of `28sp` and bold weight. |
+|**Images**	         | Ensure the `ImageView` has a `contentDescription` for accessibility.                                   |
  
 
 #### Phase 3: The "Linear" Challenge (Footer)
